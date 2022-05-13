@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--meta tags of the html-->
+        <title>MazeWalker</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Bob Catli">
+        <meta name="keywords" content="Image">
+        <meta name="revised" content="11-25-2021">
+
+        <link rel="icon" href="icon.png" type="image/gif">
+        <link rel="stylesheet" href="../css/mystyle.css">
+        <script src="../script/script.js" defer></script>
+    </head>
+    <body>
+        <header class="navigate">
+            <a href="../index.html">Intro</a>
+            <a class="active" href="game.html">Game</a>
+            <a href="reference.html">References</a>
+        </header>
+        <div class="text-box">
+        <form>
+            
+            <div class="tile">
+                <label for="move">Floor 1</label><br>
+                <img src="../images/1.png"><br>
+                <input type="radio" name="move" value="1">Right</input><br>
+                <input type="radio" name="move" value="3">Down</input><br>
+            </div>
+            <div class="tile">
+                <label for="move">Floor 2</label><br>
+                <img src="../images/2.png"><br>
+                <input type="radio" name="move" value="1">Right</input><br>
+                <input type="radio" name="move" value="-1">Left</input><br>
+                <input type="radio" name="move" value="3">Down</input><br>
+            </div>
+            <div class="tile">
+                <label for="move">Floor 3</label><br>
+                <img src="../images/3.png"><br>
+                <input type="radio" name="move" value="-1">Left</input><br>
+                <input type="radio" name="move" value="3">Down</input><br>
+            </div>
+            <div class="tile">
+                <label for="move">Floor 4</label><br>
+                <img src="../images/4.png"><br>
+                <input type="radio" name="move" value="1">Right</input><br>
+                <input type="radio" name="move" value="-3">Up</input><br>
+                <input type="radio" name="move" value="3">Down</input><br>
+            </div>
+            <div class="tile">
+                <label for="move">Floor 5</label><br>
+                <img src="../images/5.png"><br>
+                <input type="radio" name="move" value="1">Right</input><br>
+                <input type="radio" name="move" value="-1">Left</input><br>
+                <input type="radio" name="move" value="-3">Up</input><br>
+                <input type="radio" name="move" value="3">Down</input><br>
+            </div>
+            <div class="tile">
+                <label for="move">Floor 6</label><br>
+                <img src="../images/6.png"><br>
+                <input type="radio" name="move" value="-1">Left</input><br>
+                <input type="radio" name="move" value="-3">Up</input><br>
+                <input type="radio" name="move" value="3">Down</input><br>
+            </div>
+            <div class="tile">
+                <label for="move">Floor 7</label><br>
+                <img src="../images/7.png"><br>
+                <input type="radio" name="move" value="1">Right</input><br>
+                <input type="radio" name="move" value="-3">Up</input><br>
+            </div>
+            <div class="tile">
+                <label for="move">Floor 8</label><br>
+                <img src="../images/8.png"><br>
+                <input type="radio" name="move" value="-1">Left</input><br>
+                <input type="radio" name="move" value="1">Right</input><br>
+                <input type="radio" name="move" value="-3">Up</input><br>
+            </div>
+            <div class="tile">
+                <label for="move">Floor 9</label><br>
+                <img src="../images/9.png"><br>
+                <input type="radio" name="move" value="-1">Left</input><br>
+                <input type="radio" name="move" value="-3">Up</input><br>
+            </div>
+            <div>
+                <br><button type="button" class="btn" onclick="navigate()">Continue</button>
+            </div>
+        </form>
+        </div>    
+    </body>
+</html>

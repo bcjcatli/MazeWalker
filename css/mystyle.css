@@ -1,0 +1,77 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/b2/27/bc/b227bc858a11ee404975aa6761c78857.jpg");
+    background-size: 100%;
+}
+.navigate {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+.navigate a {
+    font-size: 20px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: transform .2s;
+}
+
+.navigate a:hover {
+    background-color: rgb(162, 23, 180);
+    color: #ddd;
+    transform: scale(1.2);
+    border-radius: 0.5rem;
+}
+
+.navigate a.active {
+    background-color: rgb(69, 13, 114);
+    color: #f2f2f2;
+    border-radius: 0.5rem;
+}
+
+.text-box {
+    padding: 30px;
+    font-family: serif;
+    background-color: rgb(69, 13, 114);;
+    font-size: 20px;
+    opacity: 0.9;
+    color: white;
+}
+.text-box h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.tile {
+    background-color: rgb(2, 1, 1);
+    padding: 30px;
+    margin: 0 auto;
+    display: none;
+    border-radius: 20px;
+    color: #ddd;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 40px;
+}
+img {
+    border-radius: .5rem;
+}
+.btn {
+    background-color: rgb(162, 23, 180);
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 1px;
+    color: white;
+    font-size: 24px;
+}
+.btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.2);
+    transition: transform .4s;
+}
